@@ -34,7 +34,7 @@ const Lines = ({ cities }) => {
       <select
         name="cities"
         id="cities"
-        value={selectedCity.name}
+        value={selectedCity}
         onChange={event => setSelectedCity(cities.find(item => item.name === event.target.value))}
       >
         <option value={null}>Todas las ciudades</option>

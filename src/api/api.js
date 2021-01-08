@@ -1,4 +1,4 @@
-export const baseUrl = 'http://localhost:4000';
+export const baseUrl = 'https://t2o-backend.herokuapp.com';
 
 export const getRequest = (endpoint) =>
   fetch(`${baseUrl}${endpoint}`, {
