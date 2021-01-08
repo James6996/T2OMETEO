@@ -1,0 +1,26 @@
+.cityContainer {
+  text-align: center;
+  width: 100%;
+ 
+  &__table,
+  td,
+  th {
+    margin: 0 auto;
+    table-layout: fixed;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    border: 2px solid;
+    justify-content: center;
+    border: 1px solid rgb(5, 5, 5);
+    border-collapse: collapse;
+  }
+  &__table{
+    box-shadow:4px 6px 9px 0px #0441b4;
+
+  }
+}
+
+th {
+  color: rgb(2, 53, 161);
+}
